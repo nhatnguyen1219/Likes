@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    border: solid 2px black;
+    padding: 30px;
+    position: relative;
+    left: 20%;
+    top: 10%;
+    height: 50px;
+    width: 400px;
+}
+.flex-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    
+    
+}
+.box-info{
+    width: 90%;
+    margin: 0 auto;
+}
+.box-click{
+    border: solid 1px grey;
+    padding: 5px;
+    background-color: yellow;
+    box-shadow: 2px 3px #555;
+}
+.box-text{
+    width: 90%;
+    margin: 0 auto;
+}
+.like-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    width: 40%;
+}
